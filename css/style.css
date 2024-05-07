@@ -338,7 +338,7 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 
 }
-.contato-section {
+#contato-section {
   margin-top: 100px;
   border-radius: 50px 50px 50px 50px;
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
@@ -552,7 +552,7 @@ top: -10px;
       align-items: center;
   }
   .container {
-      top: -500px;
+      top: -550px;
       margin-left: 200px;
   }
   .icones_rede {
