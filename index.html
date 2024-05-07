@@ -1,0 +1,146 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">&lt;/Isaque Gomes Azevedo&gt;</a>
+      <div class="menu-toggle">&#9776;</div>
+      <ul class="navmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projeto-sec">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </header>
+
+    <section id="home">
+      <div class="home-texto">
+        <h2>
+          Hello I'm &lt;/Isaque&gt; <i class="ph-bold ph-hand-waving"></i>
+        </h2>
+        <h3>Front End Developer</h3>
+        <p>
+          Desenvolvedor de Sistemas com foco em Front-End. Apaixonado pela arte
+          de criar experiências digitais e sempre buscando a excelência no
+          desenvolvimento de sistemas.
+        </p>
+        <div class="home-btn">
+          <a href="#" class="btn">Info contato</a>
+          <a href="#" class="btn"
+            >Download CV <i class="ph ph-read-cv-logo"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container">
+        <div id="circulo"></div>
+        <div class="home-img">
+          <img src="img/portifolio foto.png" alt="Imagem do portfólio" />
+        </div>
+      </div>
+    </section>
+
+    <div class="icones_rede">
+      <a href="#"><i class="ph-bold ph-instagram-logo"></i></a>
+      <a href="#"><i class="ph-bold ph-linkedin-logo"></i></a>
+      <a href="https://www.github.com/izaq-code"
+        ><i class="ph-bold ph-github-logo"></i
+      ></a>
+    </div>
+    <a href="#" class="rodar_baixo"
+      >Rolar para baixo
+      <i class="ph-bold ph-arrow-bend-right-down"></i>
+    </a>
+    <section id="sobre">
+      <div id="sobrer">
+        <div id="titulo-sobre">Sobre mim</div>
+        <div id="psobre">
+          Olá! Sou um entusiasta de tecnologia em constante evolução! <br />
+          <br />Atualmente, estou cursando Desenvolvimento de Sistemas, buscando
+          aprimorar minhas habilidades <br />
+          em programação e solução de problemas. Minha trajetória inclui uma
+          valiosa experiência como jovem <br />
+          aprendiz de vendedor varejista na Drogaria Araújo, onde desenvolvi
+          competências sólidas em <br />
+          atendimento ao cliente, trabalho em equipe e liderança. <br /><br />
+          Com uma base sólida em Desenvolvimento de Sistemas do Senai CTTI e
+          conhecimentos <br />
+          aprofundados em linguagens como Python, C++, SQL, JavaScript e muitas
+          outras que estão por vir, <br />
+          estou ansioso para explorar novas oportunidades no campo da
+          tecnologia. Minhas experiências <br />
+          anteriores me ensinaram a importância da comunicação interpessoal,
+          capacidade de organização, e <br />
+          pensamento crítico - habilidades que considero fundamentais em
+          qualquer ambiente profissional. <br />
+          <br />Estou entusiasmado em contribuir para projetos inovadores,
+          aprender continuamente e enfrentar <br />
+          desafios que impulsionem meu crescimento profissional. Se você procura
+          alguém dedicado, proativo <br />
+          e apaixonado por tecnologia, ficarei feliz em conectar e explorar
+          possíveis colaborações!
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 id="titulo_skills">Skills</h2>
+
+      <div id="grid_minhas_skills">
+        <div class="card"><img id="css" src="img/css.png" alt="" /></div>
+        <div class="card"><img src="img/html5.png" alt="" /></div>
+        <div class="card">
+          <img id="js" src="img/javascript-logo.png" alt="" />
+        </div>
+        <div class="card"><img id="php" src="img/pgp.png" alt="" /></div>
+        <div class="card">
+          <img
+            id="sql"
+            src="img/sql-database-sql-azure-icon-1955x2048-4pmty46t.png"
+            alt=""
+          />
+        </div>
+        <div class="card"><img id="c" src="img/c-.png" alt="" /></div>
+      </div>
+    </section>
+
+    <section id="projeto-sec">
+      <h2 id="titulo_projeto">Projetos</h2>
+      <div class="projeto">
+        <iframe src="https://petopia-neon.vercel.app" title="Petopia"></iframe>
+        <div id="descricao">
+        <h3>Petopia</h3>
+        <p>
+          Petopia é um site dedicado a oferecer uma experiência completa para
+          proprietários de animais de estimação, fornecendo uma variedade de
+          produtos de alta qualidade e permitindo o agendamento conveniente de
+          consultas veterinárias para seus queridos animais de estimação.
+        </p>
+      </div>
+      </div>
+     
+    </section>
+
+
+    <section class="contato-section">
+
+      <h2 id="titulo_Contato">Contato</h2>
+      <div class="contato-form">
+          <h2>Envie-me um Email</h2>
+          <form action="mailto:izaquegomes6223@gmail.com" method="post" enctype="text/plain">
+              <input type="text" name="subject" placeholder="Assunto" required><br>
+              <textarea name="message" rows="4" placeholder="Mensagem" required></textarea><br>
+              <button type="submit">Enviar Email</button>
+          </form>
+      </div>
+  </section>
+
+    <script src="animação.js"></script>
+  </body>
+</html>
